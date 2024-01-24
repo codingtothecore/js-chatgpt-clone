@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Epilogue:wght@600&display=swap");
+* {
+  font-family: "Epilogue", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fffff0;
+  display: flex;
+}
+h1 {
+  font-size: 33px;
+  font-weight: 600;
+  padding: 160px 0;
+}
+.side-bar {
+  background-color: #0b0b0b;
+  color: #e2dfd2;
+  width: 244px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100%;
+}
+.bottom-section {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  font-family: Barlow, sans-serif;
+  border: none;
+  background-color: #001524;
+  width: 100%;
+  font-size: 20px;
+  padding: 12px 15px;
+  border-radius: 5px;
+  color: #fde5d4;
+}
+.input-container {
+  position: relative;
+  width: 100%;
+  max-width: 650px;
+}
+.input-container #submit {
+  color: bisque;
+  background-color: #0b0b0b;
+  cursor: pointer;
+}
+
+button {
+  border: solid 0.5px #fde5d4;
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  color: wheat;
+  cursor: pointer;
+}
+nav {
+  border-top: solid 0.5px #fde5d4;
+  padding: 10px;
+  margin: 10px;
+}
+.history {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 10px;
+  margin: 10px;
+}
+.history p {
+  cursor: pointer;
+}
+#output {
+  padding: 10px;
+  margin: 0px 25px;
+}
